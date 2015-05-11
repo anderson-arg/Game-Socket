@@ -13,8 +13,8 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 
-import bean.Comida;
-import bean.Perssonagem;
+import modelo.Comida;
+import modelo.Perssonagem;
 
 public class GameCliente{
 
@@ -45,11 +45,11 @@ public class GameCliente{
 	public GameCliente(int port){
 		
 		// adicionando comida
-			comidas.add(new Comida("res/bola.png", 400, 400));
-			comidas.add(new Comida("res/bola.png", 400, 200));
-			comidas.add(new Comida("res/bola.png", 200, 400));
-			comidas.add(new Comida("res/bola.png", 100, 100));
-			comidas.add(new Comida("res/bola.png", 500, 300));
+			comidas.add(new Comida("res/comida.png", 400, 400));
+			comidas.add(new Comida("res/comida.png", 400, 200));
+			comidas.add(new Comida("res/comida.png", 200, 400));
+			comidas.add(new Comida("res/comida.png", 100, 100));
+			comidas.add(new Comida("res/comida.png", 500, 300));
 		
 		try {
 			enderecoIP = InetAddress.getByName("localhost");
@@ -65,11 +65,11 @@ public class GameCliente{
 	public GameCliente(String ip, int port){
 		
 		// adicionando comida
-			comidas.add(new Comida("res/bola.png", 400, 400));
-			comidas.add(new Comida("res/bola.png", 400, 200));
-			comidas.add(new Comida("res/bola.png", 200, 400));
-			comidas.add(new Comida("res/bola.png", 100, 100));
-			comidas.add(new Comida("res/bola.png", 500, 300));
+			comidas.add(new Comida("res/comida.png", 400, 400));
+			comidas.add(new Comida("res/comida.png", 400, 200));
+			comidas.add(new Comida("res/comida.png", 200, 400));
+			comidas.add(new Comida("res/comida.png", 100, 100));
+			comidas.add(new Comida("res/comida.png", 500, 300));
 		
 		try {
 			enderecoIP = InetAddress.getByName(ip);
