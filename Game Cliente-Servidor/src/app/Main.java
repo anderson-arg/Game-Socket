@@ -6,7 +6,7 @@ import frame.Game;
 
 public class Main {
 	
-	// Main da classe Game.java
+	// Main da classe Game
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
